@@ -80,7 +80,7 @@ def create_package(target)
     "-C #{package_dir}/lib/vendor/ruby"
 
   if !ENV['DIR_ONLY']
-    sh "tar -czf #{package_dir}.tar.gz #{package_dir}"
+    sh "cd #{package_dir}; tar -czf ../#{package_dir}.tar.gz ."
     sh "rm -rf #{package_dir}"
   end
 end
