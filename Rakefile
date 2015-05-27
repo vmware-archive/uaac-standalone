@@ -2,7 +2,7 @@
 require 'bundler/setup'
 
 PACKAGE_NAME = "uaac-standalone"
-VERSION = "1.0.0"
+VERSION = "3.1.0"
 TRAVELING_RUBY_VERSION = "20150517-2.2.2"
 
 GEM_EVENTMACHINE = "eventmachine-1.0.6"     # Must match Gemfile
